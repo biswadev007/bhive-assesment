@@ -50,13 +50,13 @@ const WorkSpaceCard: React.FC<IWorkspace> = ({
           button_type='secondary'
           passtype='daypass'
           price={day_pass_price}
-          isDiscountAvailable
-          discount={day_pass_discounts_percentage[10].message}
-        />
+          />
         <BookingButton
           button_type='primary'
           passtype='bulkpass'
           price={2400}
+          isDiscountAvailable
+          discount={day_pass_discounts_percentage[10].message}
         />
       </div>
     </div>

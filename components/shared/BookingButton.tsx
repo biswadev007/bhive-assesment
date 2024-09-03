@@ -29,7 +29,7 @@ const BookingButton: React.FC<Props> = ({
       }`}
     >
       {isDiscountAvailable ? (
-        <div className='text-[8px] p-1 -top-[20px] rounded bg-text-primary text-secondary-main absolute transform -translate-x-1/2 transition-transform left-1/2 w-auto max-w-[50%]'>
+        <div className='text-[8px] p-1 -top-[24px] rounded bg-text-primary text-secondary-main absolute transform -translate-x-1/2 transition-transform left-1/2 w-3/4'>
           {discount}
         </div>
       ) : null}
